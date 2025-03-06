@@ -1,5 +1,4 @@
 function isWeekend(date) {
-    const now = new Date();
     const dateValue = new Date(date);
     if(isNaN(dateValue.getTime())){
         return 'invalid date';
